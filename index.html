@@ -3,18 +3,50 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Ahem dont look here</title>
+    <title>What programming language should I learn first?</title>
     <script src = "main.js"></script>
-</head>
+	</head>
     <body>
-    <h1 align="center">Which programming language should I learn first?</h1>
+    <style>
+    body{
+		background-color: #1f1e1b;
+	}
+	.content{
+	font-family:century gothic;
+	color:white;
+	}
+
+	.link{
+	font-family:century gothic;
+	color:white;
+
+	}
+
+	.title{
+		text-align:center;
+		font-family:Helvetica;
+		color:white;
+	}
+
+    .video {
+	margin-left: 103px;
+
+	}
+    .auto-style1 {
+		margin-left: 103px;
+		position: fixed;
+		margin-top: 140px;
+	}
+    </style>
+    <h1 class="title" style="color:white;text-align:center;font-family:Helvetica"><a name="title">Which programming language should I learn first?</a></h1>
+	<div class="content">
     <h3> There are many programming languages in this world. Here's a few:</h3>
     <ul>
-        <li>C#</li>
-        <li>Python</li>
-        <li><a href = "https://www.typescriptlang.org/">TypeScript</a></li>
-        <li>Java</li>
-        <li>C++</li>
+        <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/" class="link">C#</a></li>
+        <li><a href="https://www.python.org/" class="link">Python</a></li>
+        <li><a href = "https://www.typescriptlang.org/" class="link">TypeScript</a></li>
+        <li><a href="https://www.java.com/en/" class="link">Java</a></li>
+        <li><a href="https://www.cplusplus.com/" class="link">C++</a></li>
         <li>And more...</li>
     </ul>
     <h3>Below I've listed different types of sub-fields/types/areas of coding that you might be interested in, and alongside them I have listed the languages that are mostly used for that sub-field the most:</h3>
@@ -46,6 +78,7 @@
 			</ul>
 		</div>
 		<div id="android" onmouseover="colourin(document.getElementById('android'))" onmouseleave="uncolourin(document.getElementById('android'))">
+	
 			<li>Android App Development</li>
         	<ul>
 				<li>Kotlin</li>
@@ -74,9 +107,17 @@
 			</ul>
 		</div>
 	</ol>
-    <iframe width="300" height="166" src="https://www.youtube.com/embed/poJfwre2PIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br>
-    <a href="table.html">Yo click me innit</a>
+    
+    <a href="table.html" class="link">Click here to view the table for a summarisation!</a>
+    <br><br><a href="form.html" class="link">Fill this form if you have made your decision!</a>
+    <br><br>
+    <a href="#title" class="link">Click here to go back to the top!</a>
+    </div>
 
+
+    
+    <iframe id ="video" onload="setVideoPos()" src="https://www.youtube.com/embed/poJfwre2PIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="I1" class="auto-style1" name="I1" style="width: 392px; left: 0; bottom: 57px; height: 233px;"></iframe>
+    <br>
+    
 </body>
 </html>

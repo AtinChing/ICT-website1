@@ -1,0 +1,36 @@
+﻿body{
+		background-color: #1f1e1b;
+	}
+.input{
+		background-color: #1f1e1b;
+		color:white;
+		border-top-width: 1px;
+		border-width:1px;
+}
+.label{
+		color:#FFFFFF;
+		font-family:Arial;
+}
+
+.content{
+	font-family:century gothic;
+	color:white;
+	}
+
+.link{
+	font-family:century gothic;
+	color:white;
+	}
+.title{
+		text-align:center;
+		font-family:Helvetica;
+		color:white;
+}
+.video {
+	margin-left: 103px;
+}
+.iframe {
+		margin-left: 1100px;
+		position: fixed;
+		margin-bottom: -10px;
+}

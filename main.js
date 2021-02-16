@@ -18,7 +18,6 @@ function changeLogo(logoLang){ // Logo lang is the language whose logo should be
     switch(logoLang){
         case "C#":
             logoPic.src = 'C%23Logo.png';
-
             break;
         case "Java":
             logoPic.src = 'JavaLogo.png';

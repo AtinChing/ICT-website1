@@ -1,36 +1,52 @@
 ﻿body{
-		background-color: #1f1e1b;
-	}
+	background-color: #1f1e1b;
+}
 .input{
-		background-color: #1f1e1b;
-		color:white;
-		border-top-width: 1px;
-		border-width:1px;
+	background-color: #1f1e1b;
+	color:white;
+	border-top-width: 1px;
+	border-width:1px;
 }
 .label{
-		color:#FFFFFF;
-		font-family:Arial;
+	color:#FFFFFF;
+	font-family:Arial;
 }
 
 .content{
 	font-family:century gothic;
 	color:white;
-	}
+}
 
 .link{
 	font-family:century gothic;
 	color:white;
-	}
+}
 .title{
-		text-align:center;
-		font-family:Helvetica;
-		color:white;
+	text-align:center;
+	font-family:Helvetica;
+	color:white;
 }
 .video {
 	margin-left: 103px;
 }
 .iframe {
-		margin-left: 1100px;
-		position: fixed;
-		margin-bottom: -10px;
+	margin-left: 1100px;
+	position: fixed;
+	margin-bottom: -10px;
+}
+
+td {
+	border:1px solid white; 
+	width: 336px; 
+	font-family:Century Gothic; 
+	height: 25px;
+	
+}
+table{
+	border:1px solid white;
+	text-align:center; 
+	color:white;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-top:auto;
 }
